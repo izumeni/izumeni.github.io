@@ -17,7 +17,7 @@
 
 		&[data-position] {
 			img {
-				@include vendor('object-fit', 'cover');
+				@include vendor('object-fit', 'contain');
 				display: block;
 				position: absolute;
 				top: 0;
